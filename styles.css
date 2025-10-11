@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    max-width: 60%;
+    max-width: 70%;
     background-color: rgb(20, 20, 20);
 }
 nav {
@@ -75,14 +75,10 @@ img {
 
     
 }
-.child-left {
-    width: 50%;
+.child {
+    width: 33%;
     
     padding: 0.5em;
-}
-.child-right {
-    padding: 0.5em;
-    width: 50%;
 }
 footer {
     display: block;
