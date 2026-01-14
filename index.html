@@ -11,58 +11,81 @@
 
 <body>
     <nav>
-        <a href="#">Home</a>
         <a href="diego_tran_resume.pdf">Resume</a>
     </nav>
-    <script src="index.js"></script>
     <h1>Diego Treviño Tran</h1>
-            <div class="container">
-                <div class="child">
-                    <p><b>Email: </b>DiegoTrevinoTran [at] gmail.com</p>
-                </div>
-                <div class="child">
-                    <p><b>Github: </b><a href="https://github.com/diegotrevinotran" target="_blank">/diegotrevinotran</a></p>
-                </div>
-                <div class="child">
-                    
-            <p><b>LinkedIn: </b><a href="https://www.linkedin.com/in/diego-tran-328a6323b/" target="_blank">/diego-tran-328a6323b/</a></p>
-                </div>
-            </div>
-            <p>I am a fourth year student at Cornell University studying Computer Science.
-            </p>
-
-            <h2>Projects</h2>
-            <h3>Beetle Chess Engine</h3>
+    <div class="container">
+        <div class="child">
             <p>
-                Beetle is an engine that uses search trees and move evaluation 
-                to play optimal moves against its opponent. It employs the 
-                minimax algorithm and alpha-beta pruning to efficiently select 
-                moves, which enables nuanced and forward-thinking strategy. 
-                Beetle also uses the UCI interface to support play through
-                Chess GUIs and applications like Lichess. Beetle is made in
-                Python and uses the chess.py library.
+                <b>Email:</b><br>
+                <u>DiegoTrevinoTran [at] gmail.com</u>
             </p>
+        </div>
+        <div class="child">
+            <p>
+                <b>Github:</b><br>
+                <a href="https://github.com/diegotrevinotran" target="_blank">/diegotrevinotran</a></p>
+        </div>
+        <div class="child">
 
-            <h3>Team ANDD Database Management System</h3>
-            
-            <p>The Team ANDD Database Management System, implemented entirely in Java, handles SQL query execution on a given tableset. The system supports both unindexed and single-indexed tables, and features multiple optimizations to minimize execution time.
-                I completed this project with a group of three other classmates for my <a href="https://classes.cornell.edu/browse/roster/FA24/class/CS/4321">Practicum in Database Systems</a> class. Along with writing the code in collaboration, I also was responsible for designing the project architecture, delegating necessary tasks amongst the group, and managing version control. </p>
+            <p><b>LinkedIn:</b><br>
+                <a href="https://www.linkedin.com/in/diego-tran-328a6323b"
+                    target="_blank">/diego-tran-328a6323b/</a>
+                </p>
+        </div>
+    </div>
+    <p>I am a fourth year student at Cornell University studying Computer Science. My interest is in using
+        data and artificial intelligence to efficiently solve problems.
+    </p>
 
-            <h3>RISC-V Interpreter</h3>
-            
-            <p>The RISC-V Interpreter takes in and evaluates programs written in the RISC-V assembly language. It supports a subset of RISC-V instructions for arithmetic, memory operations, and branch operations. The interpreter simulates memory and RAM using linked lists or hash tables. I developed this
-                interpreter as part of my <a href="https://classes.cornell.edu/browse/roster/SP24/class/CS/3410">Computer Organization and Systems Programming</a> class. My contribution was implementing the memory simulation and program evaluation. I wrote the interpreter entirely in the C programming language.</p>
-            <h3>Big Red Blockchain</h3>
-            
-            <p>Big Red Blockchain is a proof-of-concept blockchain application written entirely in the OCaml programming language. Users can
-                mine blocks, create wallets and make transactions, and observe the ledger. I worked with a team of 3 of my classmates to develop Big Red
-                Blockchain for our <a href="https://classes.cornell.edu/browse/roster/FA23/class/CS/3110">Data Structures and Functional Programming</a> class. My main contributions were implementing wallet functionality and designing test suites.</p>
-            <h2>Skills</h2>
-            <p><b>Programming Languages: </b>Java, Python, C/C++, OCaml, SQL</p>
-            <p><b>Technical: </b>Django, PyTorch, Git, Logisim, FL Studio, WSL</p>
-            <footer>
-                <p>© 2025 Diego Tran. All rights reserved.</p>
-            </footer>
+    <h2>Projects</h2>
+    <h3>Beetle Chess Engine</h3>
+    <p>
+        Beetle is a chess engine that uses artificial intelligence to plays against opponents.
+        To select optimal moves, and performs a static and dynamic evaluation of 
+        various possible game states. Beetle also employs minimax and alpha-beta
+        pruning to efficiently return the best possible moves. Beetle was 
+        developed in Python using the chess.py library.
+    </p>
+
+    <h3><a href=https://github.coecis.cornell.edu/dtt35/dbprac>Team ANDD Database Management System</a></h3>
+
+    <p>The Team ANDD Database Management System, implemented entirely in Java, handles SQL query execution on a given
+        tableset. The system supports both unindexed and single-indexed tables, and features multiple optimizations to
+        minimize execution time. I completed this project with a group of three other classmates for my <a
+            href="https://classes.cornell.edu/browse/roster/FA24/class/CS/4321">Practicum in Database Systems</a> class.
+        Along with writing the code in collaboration, I also was responsible for designing the project architecture,
+        delegating necessary tasks amongst the group, and managing version control.
+        We used JSqlParser to handle SQL queries and JUnit for integration testing.
+         </p>
+
+    <h3><a href="https://github.coecis.cornell.edu/dtt35/cs4414-hw3">Retrieval-Augmented Generation Pipeline</a></h3>
+
+    <p>
+        The Retrieval-Augmented Generation Pipeline enhances the quality of LLM outputs by enabling the model to reference
+        given documents. The pipeline uses a FAISS vector index and L2 similarity search to identify relevant context and
+        the <i>bge-base-en-v1.5</i> enmbedding model to generate vector embeddings. These embeddings are then added to the
+        vector index, so that when a text prompt is inputted, the pipeline can reference relevant context and augment
+        the prompt to include these text strings. I completed this as a final project for my 
+        <a href="https://classes.cornell.edu/browse/roster/FA25/class/CS/4414">Systems Programming</a> class. I developed
+        the pipeline entirely in Python, using the faiss and llama-cpp-python libraries.
+    </p>
+
+    <h3>Big Red Blockchain</h3>
+
+    <p>Big Red Blockchain is a proof-of-concept blockchain application written entirely in the OCaml programming
+        language. Users can mine blocks, create wallets and make transactions, and observe the ledger. I worked with a team of 3 of my
+        classmates to develop Big Red
+        Blockchain for our <a href="https://classes.cornell.edu/browse/roster/FA23/class/CS/3110">Data Structures and
+            Functional Programming</a> class. My main contributions were implementing wallet functionality and designing
+        test suites. We used Dune for the build system and OUnit for testing.</p>
+    <h2>Skills</h2>
+    <p><b>Programming Languages: </b>Java, Python, C++, OCaml, SQL</p>
+    <p><b>Libraries/Frameworks: </b>PyTorch, NumPy, llama-cpp, JUnit, ALGLIB</p>
+    <p><b>Software: </b> Git, Jupyter, FL Studio</p>
+    <footer>
+        <p>© 2026 Diego Tran. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
